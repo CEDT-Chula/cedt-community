@@ -88,13 +88,13 @@ export const pageWording = {
                 },
                 {
                     name: "Api",
-                    thought: "CEDT เป็นคณะนึงที่ผมรู้สึกว่า เรียนได้อย่างมีความสุขสุดๆ ได้เรียนอย่างที่อยากเรียน ได้ลองแบบที่อย่างลอง เป็น sandbox ที่เหมาะสําหรับการ ลงมือทําอะไรใหม่ ๆ จริง ๆ ครับ",
+                    thought: "CEDT เป็นคณะนึงที่ผมรู้สึกว่า เรียนได้อย่างมีความสุขสุดๆ เพราะได้เรียนอย่างที่อยากเรียน และได้ลองแบบที่อย่างลอง ผมคิดว่าเป็น sandbox ที่เหมาะสําหรับการ ลงมือทําอะไรใหม่ ๆ จริง ๆ ครับ",
                     position: "CEDT student",
                     image: "/life@cedt/api.png"
                 },
                 {
                     name: "Esther",
-                    thought: "CEDT สอนเพื่อให้นำไปใช้ได้จริง ตั้งแต่ปี 1 ได้ทำโปรเจคกับเพื่อนๆ ช่วยกันเรียน จากวันแรกที่ไม่รู้ อะไรเลยวันนี้ต้องฝึกงานแล้ว ทำให้เกิดความกระตือรือร้นที่ จะเรียนรู้และทำให้เก่งขึ้นจากวัน แรกมาก",
+                    thought: "CEDT สอนเพื่อให้นำไปใช้ได้จริง ตั้งแต่ปี 1 ได้ทำโปรเจคกับเพื่อนๆ ช่วยกันเรียน จากวันแรกที่ไม่รู้ อะไรเลยวันนี้ต้องฝึกงานแล้ว ทำให้เกิดความกระตือรือร้นที่จะเรียนรู้และทำให้เก่งขึ้นจากวัน แรกมาก",
                     position: "CEDT student",
                     image: "/life@cedt/esther.png"
                 }
@@ -102,6 +102,20 @@ export const pageWording = {
         },
         footer: {
             credit: "Credit: Video and photos sourced from the Facebook page of Computer Engineering & Digital Technology, Chulalongkorn University."
+        }
+
+    },
+    login:{
+        hero:{
+        title1: "Welcome back to",
+        title2: "CEDT",
+        title3: "Community",
+        },
+        footer:{
+            cantlogin: "was a cedt student but can’t login?",
+            contact: "contact",
+            here: "here",
+            href: "https://www.facebook.com/cedt.chula"
         }
 
     }

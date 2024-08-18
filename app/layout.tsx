@@ -4,8 +4,8 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: {
@@ -27,9 +27,9 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
@@ -39,6 +39,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <Toaster />
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen ">
             <Navbar />

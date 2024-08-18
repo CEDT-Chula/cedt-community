@@ -21,6 +21,8 @@ const authOptions: NextAuthOptions = {
                         id: result.id,
                         _token: result.session._token
                     }
+                } else {
+                    console.log("Not success", result)
                 }
                 return null
             }
