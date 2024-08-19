@@ -16,6 +16,9 @@ function SubTitlesTypewriter() {
           loop: true,
           delay: 50,
           deleteSpeed: 25,
+          stringSplitter: (input: string)=>{
+            return Array.from(input) as any as string;
+          }
         }}
       />
     </h3>
